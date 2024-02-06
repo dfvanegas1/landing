@@ -1,0 +1,12 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  height: 400px;
+  background-color: rgb(253, 255, 231);
+  padding-right: 20px;
+}
+
+.cards img {
+  height: 200px;
+}

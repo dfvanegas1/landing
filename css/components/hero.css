@@ -1,0 +1,42 @@
+.hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  width: 100%;
+  height: 300px;
+}
+
+.hero video {
+  position: absolute;
+  min-width: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+    /* Adjust as needed */
+  }
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -140%);
+  z-index: 1;
+  text-align: center;
+  /* Adjust as needed */
+  color: white;
+  /* Adjust text color as needed */
+  padding: 20px;
+  /* Adjust padding as needed */
+}
